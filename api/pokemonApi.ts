@@ -1,5 +1,5 @@
 import { BaseResponse } from "@/types/baseResponse";
-import { PokemonFiltered, PokemonItem } from "@/types/pokemonTypes";
+import { PokemonFiltered, PokemonInfo, PokemonItem } from "@/types/pokemonTypes";
 
 type PokemonFilterType = 'pokemon-habitat' | 'pokemon-shape' | 'pokemon-species'
 
@@ -18,7 +18,7 @@ export const fetchPokemon = async (): Promise<BaseResponse<PokemonItem[]>> => {
   return await response.json();
 };
 
-export const fetchPokemonInfo = async (id: string) => {
+export const fetchPokemonInfo = async (id: string): Promise<PokemonInfo> => {
   const response = await fetch(`https://pokeapi.co/api/v2/pokemon/${id}`);
   return await response.json();
 };

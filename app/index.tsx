@@ -54,7 +54,7 @@ export default function Index() {
           <PokeCard
             pokeItem={item}
             index={index}
-            onPress={() => router.push('/detail')} />
+            onPress={() => router.push(`/detail/${getPokeId(item?.url)}`)} />
         )}
         ListEmptyComponent={
           <View style={styles.wrapperEmpty}>
@@ -62,6 +62,7 @@ export default function Index() {
           </View>
         } />
 
+      {/* Modal Filter */}
       <Modal
         transparent
         visible={visibleFilter}
@@ -116,6 +117,7 @@ export default function Index() {
         </View>
 
       </Modal>
+      {/* Modal Filter */}
     </SafeAreaView>
   );
 }
