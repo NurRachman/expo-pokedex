@@ -1,0 +1,1 @@
+export const getPokeId = (url: string) => url.split('/')[6];
