@@ -1,4 +1,4 @@
-# 📦 Pokédex App
+![Photo on 05-08-25 at 19 26 #2](https://github.com/user-attachments/assets/abe7330f-be46-4eea-8ae1-79c21f1cc7ab)# 📦 Pokédex App
 
 A simple Pokédex application that allows users to browse, search, filter, and compare Pokémon using the PokéAPI.
 
@@ -23,8 +23,12 @@ A simple Pokédex application that allows users to browse, search, filter, and c
 ---
 
 ## ⚠️ Limitasi
+[Uploading orderbook-2.js…]()
 
 - Hanya bisa filter **1 type** pada saat yang sama  
 - Karena dari API Pokédex tidak ada function search langsung, pencarian dilakukan **secara lokal** dari data yang sudah ditampilkan
 
 ---
+
+https://github.com/user-attachments/assets/0574e925-7b34-4808-abe4-91fc93a436b2
+
