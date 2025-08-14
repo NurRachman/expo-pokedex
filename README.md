@@ -1,4 +1,4 @@
-![Photo on 05-08-25 at 19 26 #2](https://github.com/user-attachments/assets/abe7330f-be46-4eea-8ae1-79c21f1cc7ab)# 📦 Pokédex App
+# 📦 Pokédex App
 
 A simple Pokédex application that allows users to browse, search, filter, and compare Pokémon using the PokéAPI.
 
