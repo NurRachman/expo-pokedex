@@ -23,7 +23,6 @@ A simple Pokédex application that allows users to browse, search, filter, and c
 ---
 
 ## ⚠️ Limitasi
-[Uploading orderbook-2.js…]()
 
 - Hanya bisa filter **1 type** pada saat yang sama  
 - Karena dari API Pokédex tidak ada function search langsung, pencarian dilakukan **secara lokal** dari data yang sudah ditampilkan
