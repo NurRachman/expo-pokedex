@@ -29,5 +29,14 @@ A simple Pokédex application that allows users to browse, search, filter, and c
 
 ---
 
+## 🚀 How to Run
+
+1. **Clone repository ini**
+   ```bash
+   git clone https://github.com/NurRachman/expo-pokedex.git
+   cd expo-pokedex
+   bun install
+   bun start
+
 https://github.com/user-attachments/assets/0574e925-7b34-4808-abe4-91fc93a436b2
 
