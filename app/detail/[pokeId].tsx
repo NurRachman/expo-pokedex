@@ -57,6 +57,12 @@ export default function Detail() {
         </View>
 
       </ScrollView>
+
+      {/* FAB */}
+      <TouchableOpacity style={styles.fab} onPress={() => router.push({ pathname: '/compare', params: { pokeId } })}>
+        <Text style={{ fontWeight: 'bold', color: 'black' }}>VS</Text>
+      </TouchableOpacity>
+      {/* FAB */}
     </SafeAreaView>
   );
 }
@@ -128,4 +134,24 @@ const styles = StyleSheet.create({
     height: 4,
     backgroundColor: '#E1E0E1',
   },
+  fab: {
+    justifyContent: 'center',
+    alignItems: 'center',
+    position: 'absolute',
+    zIndex: 1,
+    width: 48,
+    height: 48,
+    borderRadius: 48,
+    backgroundColor: 'white',
+    right: 32,
+    bottom: 32,
+    shadowColor: "#000000",
+    shadowOffset: {
+      width: 0,
+      height: 3,
+    },
+    shadowOpacity: 0.17,
+    shadowRadius: 3.05,
+    elevation: 4
+  }
 })

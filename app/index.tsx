@@ -25,6 +25,7 @@ export default function Index() {
   return (
     <SafeAreaView style={styles.container}>
       <FlatList
+        keyExtractor={(item, index) => `poke-item-${index}-${item.url}`}
         showsVerticalScrollIndicator={false}
         contentContainerStyle={styles.flatList}
         ListHeaderComponent={

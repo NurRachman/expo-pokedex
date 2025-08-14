@@ -20,5 +20,8 @@ export const fetchPokemon = async (): Promise<BaseResponse<PokemonItem[]>> => {
 
 export const fetchPokemonInfo = async (id: string): Promise<PokemonInfo> => {
   const response = await fetch(`https://pokeapi.co/api/v2/pokemon/${id}`);
+  if (!response.ok) {
+    throw Error('Something Wrong');
+  }
   return await response.json();
 };
